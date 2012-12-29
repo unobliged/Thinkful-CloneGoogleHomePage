@@ -1,0 +1,112 @@
+* {
+	margin:0;
+	padding:0;	
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#container {
+	position: relative;
+	overflow-y: scroll;
+	min-height: 100%;
+}
+
+nav {
+	background-color: #2D2D2D;
+	min-width: 100%;
+	height: 30px;
+}
+
+nav ul {
+	padding-left:6px;
+}
+
+nav li{
+	float: left;
+	display: inline;
+	color: #C0C0C0;
+	font: bold normal 13px/100% Arial, sans-serif;
+	margin: 5px;
+	padding: 4px 5px;
+}
+
+#sign_in {
+	position: absolute;
+	top: 49px;
+	right: 44px;
+}
+
+#sign_in input {
+	padding: 7px 15px;
+	font: normal 13px/100% Arial, sans-serif;
+	background-color: #f2f2f2;
+	border: 2px solid #ececec;
+	border-radius: 3px;
+}
+
+#center {
+	width: 50%;
+	margin: 150px auto;
+	text-align: center;
+	font: normal 13px/100% Arial, sans-serif;
+	padding-bottom: 30px;
+}
+
+#center img {
+	margin: 5px;
+	padding: 7px;
+}
+
+#text_input {
+	min-width: 565px;
+	min-height: 25px;
+	margin: 10px;
+}
+
+.submit_btn {
+	font: bold normal 11px/100% Arial, sans-serif;
+	margin: 5px;
+	padding: 9px;
+	background-color: #f2f2f2;
+	border: 1px solid #ececec;
+	border-radius: 3px;	
+}
+
+#promo {
+	position: relative;
+	top: 38px;	
+}
+
+#promo a {
+	text-decoration: none;
+}
+
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	height: 30px;
+	background-color: white;
+	border-top: 1px solid #ececec;
+}
+
+footer ul {
+	float: right;
+	padding: 2px 5px 0px 0px;
+	margin-right: 40px;
+}
+
+footer li {
+	display: inline;
+	font: normal 10pt/100% Arial, sans-serif;
+	margin: 10px 10px 0px 6px;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
